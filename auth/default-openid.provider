@@ -1,3 +1,8 @@
+# OpenID Connect Plugin for XNAT
+# https://github.com/NrgXnat/xnat-openid-auth-plugin
+# XNAT installing plugins
+# https://wiki.xnat.org/documentation/xnat-administration/deploying-plugins-in-xnat
+
 auth.method=openid
 type=openid
 provider.id=cilogon
