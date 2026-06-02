@@ -24,6 +24,7 @@ if [ ! -z "$XNAT_EMAIL" ]; then
   cat > $XNAT_HOME/config/prefs-init.ini << EOF
 [siteConfig]
 adminEmail=$XNAT_EMAIL
+site.siteUrl=http://localhost
 EOF
 fi
 

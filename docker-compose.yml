@@ -32,6 +32,7 @@ services:
       - ./xnat-data/build:${XNAT_ROOT}/build
       - ./xnat-data/cache:${XNAT_ROOT}/cache
       - /var/run/docker.sock:/var/run/docker.sock
+      - ./auth:${XNAT_HOME}/config/auth
     depends_on:
       - xnat-db
     environment:
